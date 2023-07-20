@@ -1,0 +1,6 @@
+[submodule "oreo"]
+	path = oreo
+	url = https://github.com/girunivlille/oreo
+[submodule "index_kmer_to_reads"]
+	path = index_kmer_to_reads
+	url = https://github.com/LeaVandamme/index_kmer_to_reads.git
