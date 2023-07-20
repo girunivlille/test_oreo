@@ -26,7 +26,7 @@ rule reads_sort:
         miniasm_memtime = "{read}/results/{read}_miniasm_memtime.txt",
         tri_memtime = "{read}/results/{read}_sort_memtime.txt"
     shell:
-        "python3 sort_the_reads/sort_the_reads.py --reads {input.reads} -t && mv {wildcards.read}/reads/{wildcards.read}-opti_sorted.fa {output.sorted_reads_mv} && mv {wildcards.read}/reads/{wildcards.read}-opti_minimap_memtime.txt {output.minimap_memtime} && mv {wildcards.read}/reads/{wildcards.read}-opti_miniasm_memtime.txt {output.miniasm_memtime} && mv {wildcards.read}/reads/{wildcards.read}-opti_sort_memtime.txt {output.tri_memtime}"
+        "python3 oreo/oreo.py --reads {input.reads} -t && mv {wildcards.read}/reads/{wildcards.read}-opti_sorted.fa {output.sorted_reads_mv} && mv {wildcards.read}/reads/{wildcards.read}-opti_minimap_memtime.txt {output.minimap_memtime} && mv {wildcards.read}/reads/{wildcards.read}-opti_miniasm_memtime.txt {output.miniasm_memtime} && mv {wildcards.read}/reads/{wildcards.read}-opti_sort_memtime.txt {output.tri_memtime}"
 
 rule random:
     input:
