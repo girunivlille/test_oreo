@@ -2,7 +2,7 @@
 	- faire en sorte de lire le fichier de reads d'entrée même quand il est zippé dans reads_sorting.cpp
 	- tester miniasm et minimap avec d'autres paramètres 
 	- mettre à jour le tag conda
-	- ajouter le paf en argument optionnel du python oreo 
+	- ajouter le paf en argument optionnel du python oreo et l'utiliser comme nom de paf s'il n'existe pas déjà
 	- ajouter le nombre de threads de minimap en argument à part et le mettre à 1 par défaut
 	- clean l'affichage de reads_sorting --> fait
 	- changer les noms de fichier et variables pour oreo là où sort_the_reads ou sortthereads ou str est mentionné (j'en ai fait un maximum mais je ne sais pas si je les ai tous eus)
