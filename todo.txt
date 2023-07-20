@@ -5,5 +5,5 @@
 	- ajouter le paf en argument optionnel du python oreo 
 	- ajouter le nombre de threads de minimap en argument à part et le mettre à 1 par défaut
 	- clean l'affichage de reads_sorting
-	- changer les noms de fichier et variables pour oreo là où sort_the_reads ou sortthereads ou str est mentionné 
+	- changer les noms de fichier et variables pour oreo là où sort_the_reads ou sortthereads ou str est mentionné (j'en ai fait un maximum mais je ne sais pas si je les ai tous eus)
 	- tester ce que renvoie le tri quand le gfa est vide
