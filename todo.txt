@@ -7,3 +7,5 @@
 	- clean l'affichage de reads_sorting --> fait
 	- changer les noms de fichier et variables pour oreo là où sort_the_reads ou sortthereads ou str est mentionné (j'en ai fait un maximum mais je ne sais pas si je les ai tous eus)
 	- tester ce que renvoie le tri quand le gfa est vide --> fait (remet les reads dans le même ordre que le fichier d'entrée)
+
+(ne pas hésiter à m'envoyer un mail si je peux faire quelque chose)
